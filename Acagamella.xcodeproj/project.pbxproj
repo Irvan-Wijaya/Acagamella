@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB36329F2BFB283B00C6B69F /* SoundClashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB36329E2BFB283B00C6B69F /* SoundClashApp.swift */; };
+		CB3632A12BFB283B00C6B69F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3632A02BFB283B00C6B69F /* ContentView.swift */; };
+		CB3632A52BFB283C00C6B69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3632A42BFB283C00C6B69F /* Assets.xcassets */; };
+		CB3632A82BFB283C00C6B69F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3632A72BFB283C00C6B69F /* Preview Assets.xcassets */; };
+		CB3632AF2BFB290300C6B69F /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3632AE2BFB290300C6B69F /* QuizQuestion.swift */; };
+		CB3632B12BFB295E00C6B69F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3632B02BFB295E00C6B69F /* ViewModel.swift */; };
+		CB3632B32BFB29A500C6B69F /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3632B22BFB29A500C6B69F /* QuizView.swift */; };
+		CBBC33F22BFC2715006312D0 /* Plants vs. Zombies sound effect (acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBC33F12BFC2715006312D0 /* Plants vs. Zombies sound effect (acapella).mp3 */; };
+		CBBC33F42BFC29C9006312D0 /* Jetpack Joyride (acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBC33F32BFC29C9006312D0 /* Jetpack Joyride (acapella).mp3 */; };
+		CBBC33F62BFD7B91006312D0 /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC33F52BFD7B91006312D0 /* Confetti.swift */; };
+		CBBC33F82BFFA243006312D0 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBC33F72BFFA243006312D0 /* SplashScreen.swift */; };
+		CBBC33FE2C0033BE006312D0 /* Subway Surfers (acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBC33FD2C0033BE006312D0 /* Subway Surfers (acapella).mp3 */; };
+		CBBC34022C003440006312D0 /* Angry Birds sound effect (acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBC34012C003440006312D0 /* Angry Birds sound effect (acapella).mp3 */; };
+		CBBC34042C0034E0006312D0 /* Candy Crush SAGA (acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBC34032C0034E0006312D0 /* Candy Crush SAGA (acapella).mp3 */; };
+		CBBC34062C0037F5006312D0 /* Animal Crossing theme (acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBC34052C0037F5006312D0 /* Animal Crossing theme (acapella).mp3 */; };
+		CBBC34082C003A00006312D0 /* Gravity Falls (acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBC34072C003A00006312D0 /* Gravity Falls (acapella).mp3 */; };
+		CBBC340A2C003B67006312D0 /* Cut the Rope theme (acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBC34092C003B67006312D0 /* Cut the Rope theme (acapella).mp3 */; };
+		CBBC340C2C003B83006312D0 /* Fruit Ninja (acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBC340B2C003B83006312D0 /* Fruit Ninja (acapella).mp3 */; };
+		CBBC340E2C003C4B006312D0 /* GTA theme (acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBBC340D2C003C4B006312D0 /* GTA theme (acapella).mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB36329B2BFB283B00C6B69F /* Acagamella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acagamella.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB36329E2BFB283B00C6B69F /* SoundClashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundClashApp.swift; sourceTree = "<group>"; };
+		CB3632A02BFB283B00C6B69F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB3632A42BFB283C00C6B69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB3632A72BFB283C00C6B69F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB3632AE2BFB290300C6B69F /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
+		CB3632B02BFB295E00C6B69F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CB3632B22BFB29A500C6B69F /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		CBBC33F12BFC2715006312D0 /* Plants vs. Zombies sound effect (acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Plants vs. Zombies sound effect (acapella).mp3"; sourceTree = "<group>"; };
+		CBBC33F32BFC29C9006312D0 /* Jetpack Joyride (acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jetpack Joyride (acapella).mp3"; sourceTree = "<group>"; };
+		CBBC33F52BFD7B91006312D0 /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
+		CBBC33F72BFFA243006312D0 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		CBBC33FD2C0033BE006312D0 /* Subway Surfers (acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Subway Surfers (acapella).mp3"; sourceTree = "<group>"; };
+		CBBC34012C003440006312D0 /* Angry Birds sound effect (acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Angry Birds sound effect (acapella).mp3"; sourceTree = "<group>"; };
+		CBBC34032C0034E0006312D0 /* Candy Crush SAGA (acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Candy Crush SAGA (acapella).mp3"; sourceTree = "<group>"; };
+		CBBC34052C0037F5006312D0 /* Animal Crossing theme (acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Animal Crossing theme (acapella).mp3"; sourceTree = "<group>"; };
+		CBBC34072C003A00006312D0 /* Gravity Falls (acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gravity Falls (acapella).mp3"; sourceTree = "<group>"; };
+		CBBC34092C003B67006312D0 /* Cut the Rope theme (acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cut the Rope theme (acapella).mp3"; sourceTree = "<group>"; };
+		CBBC340B2C003B83006312D0 /* Fruit Ninja (acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fruit Ninja (acapella).mp3"; sourceTree = "<group>"; };
+		CBBC340D2C003C4B006312D0 /* GTA theme (acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "GTA theme (acapella).mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB3632982BFB283B00C6B69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB3632922BFB283B00C6B69F = {
+			isa = PBXGroup;
+			children = (
+				CB36329D2BFB283B00C6B69F /* SoundClash */,
+				CB36329C2BFB283B00C6B69F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB36329C2BFB283B00C6B69F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB36329B2BFB283B00C6B69F /* Acagamella.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB36329D2BFB283B00C6B69F /* SoundClash */ = {
+			isa = PBXGroup;
+			children = (
+				CB3632AE2BFB290300C6B69F /* QuizQuestion.swift */,
+				CB36329E2BFB283B00C6B69F /* SoundClashApp.swift */,
+				CB3632A02BFB283B00C6B69F /* ContentView.swift */,
+				CB3632B02BFB295E00C6B69F /* ViewModel.swift */,
+				CBBC33F52BFD7B91006312D0 /* Confetti.swift */,
+				CB3632B22BFB29A500C6B69F /* QuizView.swift */,
+				CBBC33F72BFFA243006312D0 /* SplashScreen.swift */,
+				CBBC34012C003440006312D0 /* Angry Birds sound effect (acapella).mp3 */,
+				CBBC34072C003A00006312D0 /* Gravity Falls (acapella).mp3 */,
+				CBBC33F12BFC2715006312D0 /* Plants vs. Zombies sound effect (acapella).mp3 */,
+				CBBC34092C003B67006312D0 /* Cut the Rope theme (acapella).mp3 */,
+				CBBC340B2C003B83006312D0 /* Fruit Ninja (acapella).mp3 */,
+				CBBC33F32BFC29C9006312D0 /* Jetpack Joyride (acapella).mp3 */,
+				CBBC340D2C003C4B006312D0 /* GTA theme (acapella).mp3 */,
+				CBBC34052C0037F5006312D0 /* Animal Crossing theme (acapella).mp3 */,
+				CBBC34032C0034E0006312D0 /* Candy Crush SAGA (acapella).mp3 */,
+				CB3632A42BFB283C00C6B69F /* Assets.xcassets */,
+				CB3632A62BFB283C00C6B69F /* Preview Content */,
+			);
+			path = SoundClash;
+			sourceTree = "<group>";
+		};
+		CB3632A62BFB283C00C6B69F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBBC33FD2C0033BE006312D0 /* Subway Surfers (acapella).mp3 */,
+				CB3632A72BFB283C00C6B69F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB36329A2BFB283B00C6B69F /* Acagamella */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3632AB2BFB283C00C6B69F /* Build configuration list for PBXNativeTarget "Acagamella" */;
+			buildPhases = (
+				CB3632972BFB283B00C6B69F /* Sources */,
+				CB3632982BFB283B00C6B69F /* Frameworks */,
+				CB3632992BFB283B00C6B69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Acagamella;
+			productName = SoundClash;
+			productReference = CB36329B2BFB283B00C6B69F /* Acagamella.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB3632932BFB283B00C6B69F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CB36329A2BFB283B00C6B69F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CB3632962BFB283B00C6B69F /* Build configuration list for PBXProject "Acagamella" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB3632922BFB283B00C6B69F;
+			productRefGroup = CB36329C2BFB283B00C6B69F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB36329A2BFB283B00C6B69F /* Acagamella */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB3632992BFB283B00C6B69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBC34042C0034E0006312D0 /* Candy Crush SAGA (acapella).mp3 in Resources */,
+				CBBC340C2C003B83006312D0 /* Fruit Ninja (acapella).mp3 in Resources */,
+				CBBC340E2C003C4B006312D0 /* GTA theme (acapella).mp3 in Resources */,
+				CBBC34082C003A00006312D0 /* Gravity Falls (acapella).mp3 in Resources */,
+				CBBC340A2C003B67006312D0 /* Cut the Rope theme (acapella).mp3 in Resources */,
+				CBBC33F42BFC29C9006312D0 /* Jetpack Joyride (acapella).mp3 in Resources */,
+				CBBC34022C003440006312D0 /* Angry Birds sound effect (acapella).mp3 in Resources */,
+				CB3632A82BFB283C00C6B69F /* Preview Assets.xcassets in Resources */,
+				CBBC34062C0037F5006312D0 /* Animal Crossing theme (acapella).mp3 in Resources */,
+				CBBC33FE2C0033BE006312D0 /* Subway Surfers (acapella).mp3 in Resources */,
+				CBBC33F22BFC2715006312D0 /* Plants vs. Zombies sound effect (acapella).mp3 in Resources */,
+				CB3632A52BFB283C00C6B69F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB3632972BFB283B00C6B69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3632B12BFB295E00C6B69F /* ViewModel.swift in Sources */,
+				CBBC33F62BFD7B91006312D0 /* Confetti.swift in Sources */,
+				CBBC33F82BFFA243006312D0 /* SplashScreen.swift in Sources */,
+				CB3632A12BFB283B00C6B69F /* ContentView.swift in Sources */,
+				CB3632AF2BFB290300C6B69F /* QuizQuestion.swift in Sources */,
+				CB36329F2BFB283B00C6B69F /* SoundClashApp.swift in Sources */,
+				CB3632B32BFB29A500C6B69F /* QuizView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB3632A92BFB283C00C6B69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB3632AA2BFB283C00C6B69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB3632AC2BFB283C00C6B69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundClash/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Acagamella;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = irvan.SoundClash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB3632AD2BFB283C00C6B69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundClash/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Acagamella;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = irvan.SoundClash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB3632962BFB283B00C6B69F /* Build configuration list for PBXProject "Acagamella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3632A92BFB283C00C6B69F /* Debug */,
+				CB3632AA2BFB283C00C6B69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3632AB2BFB283C00C6B69F /* Build configuration list for PBXNativeTarget "Acagamella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3632AC2BFB283C00C6B69F /* Debug */,
+				CB3632AD2BFB283C00C6B69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB3632932BFB283B00C6B69F /* Project object */;
+}
